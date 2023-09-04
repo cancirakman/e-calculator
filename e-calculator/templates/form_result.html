@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../static/css/style.css" />
+    <title>Form Result</title>
+  </head>
+  <body class="body">
+    {%block content%}
+    <div class="form_result">
+      <div class="form_text">
+        <h1>Form Sonucunuz:</h1>
+        <h3>Ad:{{name}}</h3>
+        <h3>Email:{{email}}</h3>
+        <h3>Adres:{{address}}</h3>
+        <h3>Uygun Olunan Tarih:{{date}}</h3>
+      </div>
+    </div>
+    {%endblock%}
+  </body>
+</html>
